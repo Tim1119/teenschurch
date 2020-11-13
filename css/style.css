@@ -1,0 +1,409 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:800px){
+    #main-head{
+        background-color:#6a5979;
+        font-family:Verdana;
+        min-height:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #main-head h3{
+        font-size:21px;
+        color:white;
+    }
+    .logo{
+        width:50px;
+        height:50px;
+    }
+    .navbar{
+        background-color:#6a5979 !important;
+    }
+    .navbar-brand span{
+        color:white;
+        margin-left: 10px;
+        font-family:Tahoma;
+    }
+    #big-screen-bg{
+        display: none;
+    }
+    #about-us{
+        margin-top:20px;
+        padding:10px;
+         height:120vh;
+    }
+    #about-us h3{
+        font-family:Georgia;
+        margin-bottom:15px;
+    }
+    #about-us p{
+        font-family:Georgia;
+        
+        font-size:14px;
+        line-height: 2rem;
+        justify-items: center;
+    }
+    #about-us b{
+        font-weight:bold;
+    }
+    #features .my-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:40px;
+        border-radius: 50%;;
+        font-size: 40px;
+        border: 2px solid #6a5979;
+        color:#6a5979;;
+        height:50px;
+        width:50px;
+        
+    }
+    #features{
+        height:90vh;
+        display:flex;
+        align-items: center;        
+    }
+    #features .col-md-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #features .church-features{
+        font-weight:bold;
+        font-family:Tahoma;
+        font-size:18px;
+    }#features span{
+        font-family:Georgia;
+    }
+    .news-image img{
+        width:250px;
+        height:150px;
+    }
+    #writeups{
+        margin-top:30px;
+    }
+    #writeups .col-12{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:30px;
+    }.news{
+        margin-top:30px;
+        display: flex;
+    }
+    .news-text{
+        margin-left: 20px;
+    }
+    .news-text p{
+        font-size:20px;
+        color:#6a5979;
+    }
+    #writeups{
+        height:180vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }#writeups h1{
+        font-family:Georgia,serif;
+        color:#6a5979;
+    }
+    #writeups hr{
+        display: none;
+    }
+    #writeups img{
+        box-shadow: 2px 3px 3px 2px grey;
+    }
+    #newsletter{
+        background:linear-gradient(10deg,#6a5979,#191654);
+        height:40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:white;
+        justify-content: center;
+    }
+    .newletter-input{
+        width:80%;
+    }
+    #newsletter input{
+        width:80%;
+        height:40px;
+        border:2px solid white;
+        padding:10px;
+        outline-color: #6a5979;
+    }
+    #newsletter button{
+        padding:8px;
+        outline: none;
+        border:2px solid white;
+        border-radius: 10px;
+    }
+    #newsletter button i{
+        pointer-events: none;
+    }#footer{
+        padding:10px;
+        padding-top:20px;
+        background-color:#6a5979;
+        color:white;
+    }
+    #footer  h3{
+        text-decoration-line:underline ;
+        margin-bottom:15px;
+        
+    }
+    #footer a:hover{
+        background-color:grey;
+        text-decoration-line: none;
+    }
+    #footer .col-md-4{
+        margin-top:20px;
+    }.fa-whatsapp{
+        color:green;
+    }
+}
+
+
+
+
+
+
+
+
+/* for phone*/
+@media only screen and (min-width:800px){
+    #main-head{
+        background-color:#6a5979;
+        font-family:Verdana;
+        min-height:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #main-head h3{
+        font-size:21px;
+        color:white;
+    }
+    .logo{
+        width:50px;
+        height:50px;
+    }
+    .navbar{
+        background-color:#6a5979 !important;
+    }
+    .navbar-brand span{
+        color:white;
+        margin-left: 10px;
+        font-family:Tahoma;
+    }
+    #carousel{
+        display: none;
+    }
+    #big-screen-bg{
+        height:90vh;
+        background-color: red;
+        background-image: url("../images/big_image_2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #big-screen-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Verdana;
+        color:#fff;
+    }
+    #big-screen-bg h1{
+        max-width:80%;
+        display: flex;
+        justify-content: center;
+    }
+    #big-screen-bg div{
+        margin-top:20px;
+        padding:10px;
+        width:20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #big-screen-bg button{
+        padding:15px;
+        background-color: #6a5979;
+        color: white;
+        border-radius: 10px;
+        outline:none;
+        border:none;
+        border-color: none;
+        cursor: pointer;
+    }
+    #big-screen-bg i{
+        margin-right:10px;
+    }
+    #about-us{
+        height:90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about-us h3{
+        font-family:Georgia;
+        margin-bottom:25px;
+        color:#6a5979;
+    }
+    #about-us p{
+        font-family:Georgia;
+        font-size:16px;
+        line-height: 2rem;
+        justify-items: center;
+    }
+    #about-us b{
+        font-weight:bold;
+    }
+    #about-us img{
+        border:3px solid #fff;
+        box-shadow: 2px 4px 4px 2px grey;
+    }
+    #features{
+        height:60vh;
+        display:flex;
+        align-items: center;        
+    }
+    #features .row{
+        display: flex;
+        justify-content: space-between;
+        padding:0px 30px;
+        text-justify: auto;
+    }
+    #features .my-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:40px;
+        border-radius: 50%;;
+        font-size: 40px;
+        border: 2px solid #6a5979;
+        color:#6a5979;;
+        height:50px;
+        width:50px;
+        
+    }
+    #features .col-md-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #features .church-features{
+        font-weight:bold;
+        font-family:Tahoma;
+        font-size:18px;
+    }#features span{
+        font-family:Georgia,serif;
+    }
+    .news-image img{
+        width:250px;
+        height:150px;
+    }
+    .news{
+        display: flex;
+        flex-direction: row;
+        height:auto;
+        justify-content: center;
+        margin-top:20px;
+    }
+    .news-text{
+        margin-left: 20px;
+    }
+    .news-text p{
+        font-size:20px;
+        color:#6a5979;
+    }
+    #writeups{
+        height:80vh;
+    }#writeups h1{
+        font-family:Georgia,serif;
+        color:#6a5979;
+        text-decoration-line: underline;
+    }
+    #writeups hr{
+        height:5px;
+        background-color:#6a5979;
+    }
+    #writeups img{
+        box-shadow: 2px 3px 3px 2px grey;
+    }
+    #newsletter{
+        background:linear-gradient(10deg,#6a5979,#191654);
+        height:40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:white;
+        justify-content: center;
+    }
+    .newletter-input{
+        width:80%;
+        display: flex;
+        justify-content: center;
+    }
+    #newsletter input{
+        width:70%;
+        height:40px;
+        border:2px solid white;
+        padding:10px;
+        outline-color: #6a5979;
+    }
+    #newsletter button{
+        padding:7px;
+        outline: none;
+        border:2px solid white;
+        border-radius: 10px;
+        margin-left:5px;
+    }
+    #newsletter button i{
+        pointer-events: none;
+    }
+    }#footer{
+        margin-top:40px;
+        padding:10px;
+        padding-top:20px;
+        background-color:#6a5979;
+        color:white;
+    }
+    #footer  h3{
+        text-decoration-line:underline ;
+        margin-bottom:15px;
+        
+    }
+    #footer a:hover{
+        background-color:grey;
+        text-decoration-line: none;
+    }
+    #footer .col-md-4{
+        margin-top:20px;
+    }.fa-whatsapp{
+        color:green;
+    }
+    #copywright{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        height:auto;
+        padding:20px;
+        background-color:#6a5979;
+        
+    }
+    #copywright h5{
+        font-family:Georgia;
+        font-weight: 13px;
+    }
+}
+
+
